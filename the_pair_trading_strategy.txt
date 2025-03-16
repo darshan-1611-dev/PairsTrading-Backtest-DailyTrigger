@@ -1,0 +1,35 @@
+The pair Trading Strategy
+
+Step 1:
+	Find Two Corelated Stocks, the Corelation should be more than >80%.
+	
+	- For Corelation can use closing price of the two stocks or daily returns of the two stocks.
+		The daily return can be calculated as
+			= [today’s closing price / previous day’s closing price] – 1
+	
+Step 2:
+	Find the ratio of these two stock by 
+		ratio =STOCk A Close price /STOCK B close price 
+		
+Step 3:
+	Find Mean, Median, Mode, sd , 1st 2nd 3rd above SD, 1st 2nd 3rd below SD (For Calculated SD )
+	
+
+step 4:
+	Calculated Destiny Curve for all the value(here, ratio)
+	
+	
+step 5:
+	Below table indicate the trading signal for this strategy:
+	
+	
+	Trade Type | Trigger (density curve) | Standard Deviation | Target        | Stoploss
+	-------------------------------------------------------------------------------------------
+	Long	   | Between 0.025 & 0.003	 |Between 2nd & 3rd	  |0.25 or lower  | 0.003 or higher
+	Short	   | Between 0.975& 0.997	 |Between 2nd & 3rd	  |0.975 or lower | 0.997 or higher
+	
+	
+	If the ratio is defined as Stock A / Stock B, then –
+
+		1. A long trade requires you to buy Stock A and Sell Stock B
+		2. A short trade requires you to sell Stock A and Buy Stock B

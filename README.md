@@ -1,7 +1,5 @@
 # Pairs Trading Strategy for NSE Stocks
 
-## 📌 Overview
-
 A Python implementation of the pairs trading strategy inspired by Mark Whistler, featuring backtesting capabilities and automated daily triggers for identifying profitable trading opportunities.
 
 ## 🚀 Features
@@ -17,10 +15,18 @@ A Python implementation of the pairs trading strategy inspired by Mark Whistler,
 
 ### **Prerequisites**
 
-Ensure you have **Python** installed. Install required dependencies using:
+1. Ensure you have **Python** installed. Install required dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+2. **Set up MongoDB Connection**
+
+Update the CONNECTION_STRING variable in `database.py` with your MongoDB connection string. For example:
+
+```python
+CONNECTION_STRING = "mongodb://localhost:27017/"  # Replace with your connection string
 ```
 
 ## 📊 Usage
@@ -74,5 +80,5 @@ After running `backtesting.py`, a chart will be generated displaying **buy** and
 
 ---
 
-📩 **Contact**: Have questions? Reach out via Email(mailto:darshandhanani01@gmail.com)!
+📩 **Contact**: Have questions? Reach out via [Email](mailto:darshandhanani01@gmail.com)!
 

@@ -3,3 +3,4 @@ __pycache__
 venv
 cachedir
 start_env.bat
+auto_commit.bat

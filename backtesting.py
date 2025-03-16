@@ -235,8 +235,8 @@ sns.lineplot(x=all_stock_df['DATE'], y=all_stock_df['ratio'], label="Ratio")
 
 plt.axhline(y=mean_ratio, color="green", label="Mean of ratio")
 
-plt.scatter(x=trade_date, y=trade_ratio, c="red")  # plot long
-plt.scatter(x=trade_re_date, y=trade_re_ratio, c="yellow")  # plot long
+plt.scatter(x=trade_date, y=trade_ratio, c="red", label="buy")  # plot long
+plt.scatter(x=trade_re_date, y=trade_re_ratio, c="yellow", label="sell")  # plot long
 
 #  Add titles and labels
 plt.title("Ratio")

@@ -21,9 +21,9 @@ A Python implementation of the pairs trading strategy inspired by Mark Whistler,
 pip install -r requirements.txt
 ```
 
-2. **Set up MongoDB Connection**
+2. Set up **MongoDB** Connection
 
-Update the CONNECTION_STRING variable in `database.py` with your MongoDB connection string. For example:
+Update the `CONNECTION_STRING` variable in `database.py` with your MongoDB connection string. For example:
 
 ```python
 CONNECTION_STRING = "mongodb://localhost:27017/"  # Replace with your connection string
